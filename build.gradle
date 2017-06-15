@@ -8,6 +8,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-4"
+        classpath 'com.novoda:bintray-release:0.4.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -18,8 +19,26 @@ allprojects {
     repositories {
         jcenter()
     }
+
+    tasks.withType(Javadoc).all {
+        enabled = false
+    }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+task javadoc(type: Javadoc) {
+    excludes = ['**/*.kt'] // < ---- Exclude all kotlin files from javadoc file.
+    // ...
+}
+
+ext {
+    userOrg = 'soulyaroslav'
+    groupId = 'com.steelkiwi'
+    uploadName = 'sliding-square-loader-view'
+    description = 'Marvelous sliding square loader view'
+    publishVersion = '1.0.0'
+    licences = ['Apache-2.0']
 }

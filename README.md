@@ -1,6 +1,7 @@
 # SlidingSquareLoaderView
 
 [![Made in SteelKiwi](https://github.com/steelkiwi/SlidingSquareLoaderView/blob/master/assets/made_in_steelkiwi.png)](http://steelkiwi.com/blog/)
+[ ![Download](https://api.bintray.com/packages/soulyaroslav/maven/sliding-square-loader-view/images/download.svg) ](https://bintray.com/soulyaroslav/maven/sliding-square-loader-view/_latestVersion)
 
 Marvelous sliding square loader view inspired this [Design](https://site.uplabs.com/posts/slidin-squares-loader)
 
@@ -13,7 +14,7 @@ Marvelous sliding square loader view inspired this [Design](https://site.uplabs.
 ## Gradle
 
 ```gradle
-soon
+compile 'com.steelkiwi:sliding-square-loader-view:1.0.0'
 ```
 
 # Usage
