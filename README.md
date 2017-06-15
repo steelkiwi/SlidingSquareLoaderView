@@ -4,6 +4,7 @@
 [ ![Download](https://api.bintray.com/packages/soulyaroslav/maven/sliding-square-loader-view/images/download.svg) ](https://bintray.com/soulyaroslav/maven/sliding-square-loader-view/_latestVersion)
 
 Marvelous sliding square loader view inspired this [Design](https://site.uplabs.com/posts/slidin-squares-loader)
+All items has same gradient and it changing on depending items position 
 
 # View
 
