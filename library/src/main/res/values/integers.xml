@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="views_positions">
+        <!--0, 1, 2, 3, 1, 0, 4, 1, 3, 2, 1, 4-->
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>0</item>
+        <item>4</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>4</item>
+    </integer-array>
+
+    <integer-array name="ways_position">
+        <!--0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5-->
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <integer-array name="gradients_position">
+        <!--0, 1, 2, 3, 2, 1-->
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </integer-array>
+</resources>

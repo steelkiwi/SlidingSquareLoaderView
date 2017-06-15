@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.steelkiwi.library.SlidingSquareLoaderView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sslv_corner_radius="@dimen/corner_radius"
+        app:sslv_margin="@dimen/margin"
+        app:sslv_end_gradient_color="@color/end_gradient_color"
+        app:sslv_start_gradient_color="@color/start_gradient_color"
+        app:sslv_background_color="@color/background"
+        app:sslv_square_size="@dimen/square_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="show"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hide"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="square_size">35dp</dimen>
+    <dimen name="view_margin">5dp</dimen>
+    <dimen name="view_corner_radius">3dp</dimen>
+</resources>

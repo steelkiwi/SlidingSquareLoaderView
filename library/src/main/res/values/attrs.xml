@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidingSquareLoaderView">
+        <attr name="sslv_corner_radius" format="dimension"/>
+        <attr name="sslv_start_gradient_color" format="color"/>
+        <attr name="sslv_end_gradient_color" format="color"/>
+        <attr name="sslv_background_color" format="color"/>
+        <attr name="sslv_margin" format="dimension"/>
+        <attr name="sslv_square_size" format="dimension"/>
+    </declare-styleable>
+</resources>
