@@ -13,6 +13,8 @@ All items has same gradient and it changing on depending items position
 
 # Download
 
+For project API 21+
+
 ## Gradle
 
 ```gradle
